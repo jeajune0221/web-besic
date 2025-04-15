@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레드향 주문하기</title>
+</head>
+<body>
+    <div id="container" style = " width: 480px; margin: 40px auto;">
+    <h1>레드향 주문하기</h1>
+    <form action="">
+        <fieldset>
+        <legend>배송 정보</legend>  
+        <ul>
+            <li>이름<input type="text"></li>
+            <li>배송 주소<input type="texXt"></li>
+            <li>이메일<input type="email"></li>
+            <li>연락처<input type="tel"></li>
+            <li>배송 지정<input type="date"><samll>(주문일로부터 최소 3일 이후)</samll></li>
+            <li>
+                메모
+            </li>
+            <textarea id="memo" cols = "40" rows="4"></textarea>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>상품선택</legend>
+            <p><b>주문할 상품을 선택해 주세요</b></p>
+            <select>
+                <option selected> 레드향 특</option>
+                <option selected> 레드향 상</option>
+                <option selected> 레드향 중</option>
+                <option selected> 레드향 소</option>
+            </select>
+            <ul>
+                <li><input type = "checkbox">선물용 3kg
+                     <input type = "number" min="0" max="5">개 (최대 5개)
+                    </li>
+                <li>
+                    <input type = "checkbox"> 선물용 5kg
+                    <input type = "number" min = "0" max = "3">개 (최대 3개)
+                </li>
+            </ul>
+        </fieldset>
+        <div>
+            <input type="submit" value="주문하기">
+            <input type = "reset" value="취소하기">
+
+        </div>
+    </form>
+</div>
+</body>
+</html>
+

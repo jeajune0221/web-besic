@@ -1,0 +1,9 @@
+h1{
+    display: inline-block;
+    color : white;
+    background-color:darkblue;
+    font-size:1.5em;
+}
+span{
+    color:red;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+        <h1>회원가입을 환영합니다</h1>
+        <form action="">
+            <fieldset>
+                <legend>사용자 정보</legend>
+                <label for = "uname">이름</label>
+                <input type = "text" id ='uname'>
+                <br>
+                이메일<input type="email">
+                <br>
+
+                나이<input type = "number" min="1" max = "200">
+                <br>
+                방문빈도<input type = "range" min = "1" max = "200">
+                <br>
+                생년월일<input type = "date">
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>이벤트와 새로운 소식</legend>
+                <input type = "radio" name = "mailing" checked>메일 수신
+                <input type = "radio" name = "mailing">메일 수신 안함
+            </fieldset>
+            <br>
+            <input type = "submit" value="가입하기">
+            <input type = "reset" value = "취소">
+            <button onclick ="window.open('notice.html')"> 공지열기</button>
+        
+        <br><br>
+        <fieldset><legend>파일열기</legend>
+        <input type = "file"></fieldset>
+        </form>
+    </div>
+</body>
+</html>

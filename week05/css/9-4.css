@@ -1,0 +1,31 @@
+body{
+    font-size: 20px;
+}
+h1{
+    font-family: 나눔고딕,바탕;
+    font-size: 3em;
+}
+h2{
+    font-size:60px;
+    font-weight: bold;
+}
+#accent{
+    font-size:150%;
+    font-weight: 800;
+}
+.italic{
+    font-style : italic;
+}
+.shadow1{
+    color: red;
+    text-shadow: 1px 1px black;
+    letter-spacing: 0.5em;
+}
+.shadow2{
+    text-shadow: 5px 5px 3px #ffa550;
+}
+.shadow3{
+    color : #fff;
+    text-shadow: 7px -7px 20px #000;
+    text-transform: lowercase;
+}

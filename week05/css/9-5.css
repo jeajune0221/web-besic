@@ -1,0 +1,14 @@
+h1{
+    font-size : 1.4em;
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+
+ul{
+    list-style:none;
+}
+li{
+    font-size: 1.2em;
+    color : blue;
+}
