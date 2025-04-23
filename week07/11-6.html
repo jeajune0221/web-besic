@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선형 그라데이션</title>
+    <style>
+        li{
+            display: inline-block;
+            width: 300px;
+            height:200px;
+            border-radius:10px;
+
+        }
+        .grade1{
+            background: blue;
+            background: linear-gradient(to right bottom,white,blue);
+        }
+        .grade2{
+            background: #f00;
+            background:linear-gradient(45deg,#f00,#fff);
+        } 
+        .grade3{
+            background: #06f;
+            background:linear-gradient(to bottom,#06f,white 30%, #06f)
+        }       
+        .radial1{
+            background:red;
+            background:radial-gradient(white, yellow,red);
+
+        }
+        .radial2{
+            background:red;
+            background:radial-gradient(circle,white,yellow,red);
+        }
+    </style>
+</head>
+    <body>
+        <h3>1. 선형 그러데이션</h3>
+            <ul>
+                <li class="grade1">왼쪽위에서 오른쪽 아래방향</li>
+                <li class="grade2">45도 (오른쪽 위)방향으로</li>
+                <li class="grade3">위에서부터 30% 위치에 색상 중지점</li>
+            </ul> 
+        <h3>2.원형 그러데이션(radial-gradient)</h3>
+            <ul>
+                <li class="radial1"></li>
+                <li class="radial2"></li>
+            </ul>
+    </body>
+</html>
