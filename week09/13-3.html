@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>세로로 중앙에 배치하기</title>
+  <style>
+    * {
+      margin: 0px;
+      box-sizing: border-box;
+    }
+
+    #content {
+      height: 100vh;
+      background: url('./images/bg0.jpg');
+      background-color: cover;
+      display: flex;
+    }
+
+    button {
+      margin-right: 20px;
+    }
+  </style>
+</head>
+
+<body id="content">
+  <!--이부분에 답안 작성-->
+  <button onclick="justityContent()">주측 가운데 정렬</button>
+  <button onclick="alignItems()">교차측 가운데 정렬!</button>
+  <script>
+    let contentEI = document.getElementById("content");
+
+    function justityContent() {
+      contentEl.style.justityContent = "center";
+    }
+    function aplignItems() {
+      contentEI.style.alignltems = "center";
+    }
+  </script>
+</body>
+
+</html>
